@@ -38,7 +38,7 @@ public:
 
             int left = i - (n-k) + 1;
             if (left < 0) continue;
-
+·   
             Min_Of_K = min(Min_Of_K, sum);
             sum -= cardPoints[left];
         }
