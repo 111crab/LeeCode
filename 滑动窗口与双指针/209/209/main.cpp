@@ -22,6 +22,10 @@ public:
         return  ans <= n ? ans : 0;
     }
 };
+
+
+
+
 int main()
 {
     Solution s;
